@@ -1,0 +1,16 @@
+El comando "git commit" sirve para guardar todos los cambios hechos en la zona de montaje. 
+Al realizar un commit en Git, se crea un registro permanente de los cambios que se realizaron en tus archivos. 
+Cada commit tiene un identificador único que lo diferencia de los demás y contiene información como el autor del commit, 
+la fecha y hora en que se realizó, y un mensaje descriptivo que explica los cambios que se hicieron.
+
+
+El comando "git fetch" es utilizado en Git para recuperar los cambios y referencias (ramas, etiquetas, etc.) de un repositorio 
+remoto sin fusionarlos automáticamente con tu rama actual.
+Al ejecutar "git fetch", Git consulta el repositorio remoto especificado y descarga cualquier cambio nuevo que aún no esté presente en tu repositorio local. 
+Esto actualiza la información sobre las ramas remotas y las referencias en tu repositorio local, permitiéndote ver los cambios realizados por otros colaboradores en el proyecto.
+
+
+El comando "git push" es utilizado en Git para enviar los cambios realizados en tu repositorio local hacia un repositorio remoto. Permite sincronizar tus cambios con el repositorio remoto, 
+actualizando las ramas y referencias correspondientes.
+Al realizar un "git push", los commits que hayas realizado en tu rama local se envían al repositorio remoto especificado, lo que actualiza la rama correspondiente en el repositorio remoto.
+Esto permite a otros colaboradores del proyecto ver y acceder a tus cambios.
